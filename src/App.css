@@ -5,6 +5,25 @@
   text-align: center;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result {
+  border: 1px solid white;
+  height: 24px;
+}
+input {
+    width: 300px;
+}
+
+.button-check {
+    border: 1px solid white ;
+    border-radius: 0;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
