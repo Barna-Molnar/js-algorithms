@@ -39,6 +39,8 @@ const HarmlessRansonNote: FunctionComponent = () => {
 
     return (
         <div className='flex-column'>
+            <h1>Harmless ransom note</h1>
+
             <input type="string" onChange={(e: React.BaseSyntheticEvent) => { setNoteText(e.target.value) }} placeholder='please pass in a Note text' />
             <input type="string" onChange={(e: React.BaseSyntheticEvent) => { setMagazineText(e.target.value) }} placeholder='please pass in a Magazin Text' />
             <button

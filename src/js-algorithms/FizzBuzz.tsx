@@ -22,6 +22,7 @@ const FizzBuzz: FunctionComponent = () => {
 
     return (
         <div>
+            <h1>FizzBuzz</h1>
             <input type="string" onChange={handleOnChangeInput} placeholder='please pass in a number' />
 
             {fizzBuzzResult.map(item => <div>{item}</div>)}

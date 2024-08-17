@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import FizzBuzz from './js-algorithms/fizzBuzz'
+import FizzBuzz from './js-algorithms/FizzBuzz'
+import HarmlessRansonNote from './js-algorithms/HarmlessRansonNote'
 
 function App() {
 
 
     return (
-        <>
-            <FizzBuzz />
-        </>
+        <div className='app_contianer'>
+            <FizzBuzz/>
+            <HarmlessRansonNote />
+        </div>
     )
 }
 
